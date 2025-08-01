@@ -70,7 +70,7 @@ function filterCars(cars) {
 
     cars.forEach(car => {
         carsCards.innerHTML += `
-                        <div class="card relative shadow-lg p-3 rounded" style="width: 18%;">
+                        <div class="card relative shadow-lg p-3 rounded">
                             <img src="${car.images}" class="card-img-top" style="height: 300px; object-fit: cover; background-position: center; width: 100%;" alt="...">
                             <div class="text-xl cursor-pointer absolute top-0 right-0 text-white">
                                 <i onclick="addFav('${car.id}')" class="fa-regular fa-heart"></i>
