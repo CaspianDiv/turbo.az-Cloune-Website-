@@ -1,0 +1,26 @@
+ul.menu {
+    height: 50px;
+    display: flex;
+};
+
+/* Swiper STYLES */
+    body {
+      background: #444;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 500px;
+      height: 400px;
+    }

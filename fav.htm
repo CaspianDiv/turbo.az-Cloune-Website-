@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- TailwindCss Output -->
+        <link rel="stylesheet" href="../output.css" />
+        <!-- TailwindCss CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- FavIcon -->
+        <link rel="stylesheet" href="../favicon.ico" />
+        <!-- FontAwesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Styles Local -->
+        <link rel="stylesheet" href="../style.css" />
+        <title>Seçilmişlər</title>
+    </head>
+    <body>
+        <header class="overflow-hidden">
+                <nav class="bg-[#F6F7FA] py-3">
+                    <div class="container flex justify-around  gap-4 flex-wrap">
+                        <div class="flex flex-wrap items-center gap-4 text-gray-500 text-sm">
+                            <p class="hover:text-[#CA1016]  cursor-pointer">Tap.az</p>
+                            <p class="hover:text-[#CA1016]  cursor-pointer">Bina.az</p>
+                            <p class="hover:text-[#CA1016]  cursor-pointer">Boss.az</p>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+                            <p class="hover:text-[#CA1016] "><span class="text-sm text-black">Dəstək:</span> (012) 526-47-47</p>
+                            <p class="hover:text-[#CA1016]  cursor-pointer">Yardım</p>
+                            <p class="hover:text-[#CA1016] cursor-pointer">RU</p>
+                            <div class="hover:text-[#CA1016] flex cursor-pointer gap-3 items-center">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <p>Seçilmişlər</p>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-3 hover:text-[#CA1016]  cursor-pointer">
+                                <i class="fa-solid fa-circle-user text-sm"></i>
+                                <p>Giriş</p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="bg-[#CA1016] p-2  container-fluid flex flex-wrap justify-around items-center">
+                    <h3 class="uppercase text-white font-bold text-xl pl-20 cursor-pointer" onclick="mainPage()">turbo.az</h3>
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2">Bütün elanlar</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2">Dilerlər</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2">Avtokataloq</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2">Moto</a>
+                        </li>
+                        <li class="relative group"> 
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2 block">Ehtiyat hissələr və akksesuarlar</a>
+                            <ul class="bg-[#fff] p-1 leading-10 rounded shadow-lg mt-1 absolute min-w-[250px] top-full left-3 invisible opacity-0 group-hover:visible group-hover:opacity-100 z-50 transition-all duration-500">
+                                <li class="hover:bg-[#cccd] hover:text-[#CA1016] w-full">
+                                    <a href="#">Aksesuarlar</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Audio və texnika</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Avtokosmetika və avtokimya</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Ehtiyat hissələri</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]   hover:text-[#CA1016]w-full">
+                                    <a href="#">GPS avadanlıqlar</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Qeydiyyat nişanları</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Siqnalizasiyalar</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Videoqeydiyyatçılar</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Şinlər,disklər və təkərlər</a>
+                                </li>
+                                <li class="hover:bg-[#ccc]  hover:text-[#CA1016] w-full">
+                                    <a href="#">Digər</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="text-white p-[0_15px] leading-10 border-r-[rgba(0,0,0,.1)] border-r-2">İcarə</a>
+                            <ul class="bg-[#fff] p-1 leading-10 rounded shadow-lg mt-1 absolute min-w-[250px] top-full left-3 z-50 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-500">
+                                <li class="hover:bg-[#ccccccd7] hover:text-[#CA1016]">
+                                    <a href="#">Avtomobillər</a>
+                                </li>
+                                <li class="hover:bg-[#ccccccd7] hover:text-[#CA1016]">
+                                    <a href="#">Avtobus və mikroavtobuslar</a>
+                                </li>
+                                <li class="hover:bg-[#ccccccd7] hover:text-[#CA1016]">
+                                    <a href="#">Motosiklet və mopedlər</a>
+                                </li>
+                                <li class="hover:bg-[#ccccccd7] hover:text-[#CA1016]">
+                                    <a href="#">Xüsusi texnika</a>
+                                </li>
+                                <li class="hover:bg-[#ccccccd7] hover:text-[#CA1016]">
+                                    <a href="#">Digər</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="bg-[#7ED321] p-2 rounded text-xs text-white hover:bg-[#7dd321dd]"><i class="fa-solid fa-plus"></i> Yeni elan</button>
+                </div>
+        </header>
+        <main>  
+            <div class="pl-40">
+                <h3 class="uppercase p-5 text-2xl font-bold">seçilmiş elanlar</h3>
+            </div>
+            <hr class="w-[83%] border  mx-auto" />
+            <div id="favSec" class="container mx-auto flex flex-wrap justify-center items-center py-4 gap-4 bg-[#fafafa]"></div>
+            <div id="emptyFavSec"  class="bg-[#FAFAFA] p-10 container flex flex-col justify-center items-center m-auto h-[100dvh]"></div>
+        <!-- Banner -->
+                <div class="hidden xl:block">
+                    <div class="w-[160px] h-[600px] fixed left-5 top-[200px]">
+                        <img src="https://dcassetcdn.com/design_img/4035179/1384160/30373172/hbkjes5ae196dk5neqzy9ha9nq_image.jpg" style="width: 120px; height: 900px; object-fit: cover; background: center;"  alt="detective banner image 3d" />
+                    </div>
+                </div>
+        <!-- Banner 2 -->
+                <div class="hidden xl:block">
+                    <div class="w-[160px] fixed right-5 top-[200px] h-[600px]">
+                        <img src="https://dcassetcdn.com/design_img/4035179/1384160/30373172/hbkjes5ae196dk5neqzy9ha9nq_image.jpg" style="width: 120px; height: 900px; object-fit: cover;" alt="detective banner image 3d" />
+                    </div>
+                </div>
+        <!-- Go To Up -->
+                    <div onclick="goUp()" class="fixed right-10 top-[90%] border p-2 bg-[#CA1016] text-white hover:bg-[#ca1016ce] hover:text-black transition-all duration-500 rounded-full cursor-pointer z-50">
+                        <i class="fa-solid fa-angle-up text-[2rem]"></i>
+                    </div>
+        </main>
+        <footer class="relative">
+                <div class="bg-[#F0F2F6]">
+                <div class="xl:flex container xl:justify-between xl:items-center m-auto flex-wrap">
+                    <div class="">
+                        <h5 class="text-[1.5rem] font-bold">Hər şey bir tətbiqdə!</h5>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <div class="w-[150px]">
+                            <img src="../img/appstore.png" alt="appstore" />
+                        </div>
+                        <div class="w-[150px]">
+                            <img src="../img/googleplay.png" alt="googleplay" />
+                        </div>
+                        <div class="w-[150px]">
+                            <img src="../img/appgallery.png" alt="appgallery" />
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-[150px]">
+                            <img src="../img/appscreen.png" alt="Apple screen" />
+                        </div>
+                        <div class="w-[150px] p-5">
+                            <img src="../img/qrcode.png" alt="qrcode img" />
+                            <p class="text-gray-400 text-sm text-center mt-2">Yükləmək üçün kameranı QR-koda yönəldin</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-2 border-gray-300" />
+                <div class="flex justify-around items-center gap-2 p-3">
+                        <div>
+                            <p>Reklam yerləşdirin</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-facebook-f text-gray-400"></i>
+                            <i class="fa-brands fa-instagram text-gray-400"></i>
+                            <i class="fa-solid fa-envelope text-gray-400"></i><span> turbo@turbo.az</span>
+                            <i class="fa-solid fa-phone text-gray-400"></i><span> (012) 526-47-47</span>
+                        </div> 
+                </div>
+                <hr class="border-gray-300 mt-3" />
+            </div>
+                <div class="bg-[#CA1016] p-2 text-[#fff] w-full flex justify-around gap-4 flex-wrap container-fluid">
+                    <p>Saytın Adminstirasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır</p>
+                    <p>2006-2025 Dİgital Classfields MMC. VÖEN :1405631661</p>
+                    <p>Mobil versiyası</p>
+                </div>
+        </footer>
+        <script src="../JS/fav.js" type="module"></script>
+    </body>
+</html>
